@@ -55,7 +55,7 @@ def send_welcome(message):
 	bot.send_message(message.chat.id, "Выберите свой класс", reply_markup=keyboard)
 
 def main():
-	TOKEN = '6126475686:AAHk-6xjT6-zSCD6u2dY1fbR0rvRpuepE40'
+	TOKEN = 'token'
 	bot = telebot.TeleBot(TOKEN)
 
 	keyboard = ReplyKeyboardMarkup(resize_keyboard = True)	
